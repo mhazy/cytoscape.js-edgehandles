@@ -693,6 +693,8 @@
 
               if( mdownOnHandle ) {
                 hoverOut( node );
+              } else {
+                  clearDraws();
               }
 
             } ).on( 'drag position', 'node', dragNodeHandler = function() {
